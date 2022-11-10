@@ -50,7 +50,6 @@ int main()
                                         if(Output[i][j]<='9'&&Output[i][j]>='0')
                                                 outNum[i][strlen(outNum[i])]= Output[i][j];
                         }
-                        printf("%s\n%s", standNum[0], outNum[0]);
                         for(i=0;i<n;i++){
                                 int j;
                                 for(j=0; j<strlen(standNum[i]); j++)
